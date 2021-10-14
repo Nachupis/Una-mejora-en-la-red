@@ -7,7 +7,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,su
 }
 
 html {
-	background: #201f21;
+	background: #000000;
 }
 
 body {
@@ -17,9 +17,12 @@ body {
 	letter-spacing: 0.125em;
 	font-weight: 700;
 	min-height: 100vh;
-	color: #57585c;
+	color: #3858d8;
 	color: var(--color-text);
 	background-color: #fff;
+	background-image: url("https://thumbs.gfycat.com/HonorableKlutzyBordercollie-size_restricted.gif");
+	background-repeat: no-repeat;
+	background-size: 1500px 800px;
 	background-color: var(--color-bg);
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
@@ -151,8 +154,7 @@ main {
 	'github info';
 }
 
-.demo-1 .content--fixed {
-	padding: 1rem 1.75rem 1rem 1rem;
+
 }
 
 .content--fixed a {
@@ -283,8 +285,6 @@ a.demo--current {
 		float: none;
 		width: auto;
 	}
-	.demo-1 {
-		--color-link-hover: #fff;
-		--color-info: #fff;
+	
 	}
 }

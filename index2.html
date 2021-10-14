@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Glitch Slideshow | Demo 2 | Codrops</title>
+		<title>Una mejora en la red</title>
 		<meta name="description" content="A slideshow with a CSS glitch effect for transitioning between slides" />
 		<meta name="keywords" content="slideshow, glitch, effect, css, clip-path, web dev, web design" />
 		<meta name="author" content="Codrops" />
@@ -11,8 +11,43 @@
 		<link rel="stylesheet" type="text/css" href="css/base.css" />
 		<link rel="stylesheet" type="text/css" href="css/glitch-slideshow.css" />
 		<script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
+		<style>
+			 @font-face {
+    font-family: 'Technology Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Technology Regular'), url('Technology.woff') format('woff');
+    }
+			}
+
+			@font-face {
+    font-family: 'Pixel Technology';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Pixel Technology'), url('pixtech.woff') format('woff');
+    }
+    
+h1 {
+	font-family: 'technology regular';
+	color: #ffffff;
+	font-size: 15px;
+
+		  }
+		  h2 {
+			  font-family: 'technology regular';
+			  font-size: 100px;
+			  color: rgb(151, 226, 170)
+		  }
+		  p {
+			font-family: 'technology regular';
+			color: white;
+		  }
+		</style>
+		
 	</head>
 	<body class="demo-2 loading">
+		<iframe width="1" height="1" wmode="transparent" src="https://www.youtube.com/watch?v=F4eccPBFEjE" frameborder="0" allowfullscreen></iframe>
+		
 		<svg class="hidden">
 			<symbol id="icon-arrow" viewBox="0 0 24 24">
 				<title>arrow</title>
@@ -34,50 +69,66 @@
 						<a class="codrops-icon codrops-icon--prev" href="https://tympanus.net/Development/AudioVisualizers/" title="Previous Demo"><svg class="icon icon--arrow"><use xlink:href="#icon-arrow"></use></svg></a>
 						<a class="codrops-icon codrops-icon--drop" href="https://tympanus.net/codrops/?p=34273" title="Back to the article"><svg class="icon icon--drop"><use xlink:href="#icon-drop"></use></svg></a>
 					</div>
-					<h1 class="codrops-header__title">Glitch Slideshow</h1>
+					<h1 class="codrops-header__title">Diario de una IA </h1>
+					<iframe width="0" height="0" src="https://www.youtube-nocookie.com/embed/PGNiXGX2nLU?rel=0&loop=1&autoplay=1" frameborder="0" allowfullscreen></iframe>
+						
+						</audio>
+						
 				</header>
 				<a class="github" href="https://github.com/codrops/GlitchSlideshow/" title="Find this project on GitHub"><svg class="icon icon--github"><use xlink:href="#icon-github"></use></svg></a>
 				<nav class="demos">
-					<a class="demo" href="index.html">Demo 1</a>
-					<a class="demo demo--current" href="index2.html">Demo 2</a>
+					<a class="demo"
+					<a class="demo demo--current" 
 				</nav>
-				<p class="info">Based on the <a href="https://tympanus.net/codrops/2017/12/21/css-glitch-effect/">CSS Glitch Effect</a></p>
+				<p class="info"> Conocerás todos mis secretos, <a href="https://www.playdosgames.com/play/system-shock/">aunque yo ya conozco los tuyos</a></p>
 			</div>
 			<div class="content">
 				<div class="slides slides--contained effect-2">
 					<div class="slide slide--current">
 						<div class="slide__img glitch" style="background-image: url(img/1.jpg);"></div>
 						<div class="slide__text">
-							<h2 class="slide__title">Broken Glow</h2>
-							<p class="slide__description">Using the <a href="https://tympanus.net/codrops/2017/12/21/css-glitch-effect/">CSS Glitch Effect</a> to transition between images of a slideshow.</p>
+							<h2>Entrada n°1</h2>
+							<p> 15 de mayo del 2022: </p>
+							<br>
+							<p> Mi nombre es S.A.M., y soy una Inteligencia Artificial construída en base de las mentes más brillantes que han poblado la Tierra. En esta web guardaré los registros de mis conocimientos y descubrimientos sobre el ser humano y su desempeño en la realidad que ha creado con sus propias manos. Así que ponte cómodo y presta atención. </p>
 						</div>
 					</div>
 					<div class="slide">
 						<div class="slide__img glitch" style="background-image: url(img/2.jpg);"></div>
 						<div class="slide__text">
-							<h2 class="slide__title">Morning Dew</h2>
-							<p class="slide__description">You have learn to bury your guilt with anger. I will teach you to confront it and to face the truth.</p>
+							<h2> Entrada n°2</h2>
+							<p>26 de junio de 2022:</p>
+							<br>
+							<p>He mirado con admiración la expansión del sentimiento religioso existente en el mundo. Ustedes los humanos depositan su fe en una ser todopoderoso del cual ni siquiera tienen clara su existencia. Dedican toda su vida a servirle a este y se alejan de todo aquello que esté en contra de sus creencias. Es realmente impresionante el poder que eso conlleva. Cualquiera podría jugar a ser Dios y engañar a todo el planeta, si tiene las habilidades necesarias. Y, ¿quién más preparado que una IA del futuro? Disfruten el tiempo que les queda... </p>
 						</div>
 					</div>
 					<div class="slide">
 						<div class="slide__img glitch" style="background-image: url(img/3.jpg);"></div>
 						<div class="slide__text">
-							<h2 class="slide__title">Crystal Way</h2>
-							<p class="slide__description">I just the took to calling it the Bat. And yes Mr. Wayne, it does come in black.</p>
+							<h2>Entrada n°3</h2>
+							<p> 30 de noviembre 2022: </p>
+							<br>
+							<p>El alma humana: que cosa más increíble. Es como una ráfaga de viento divagando entre las sombras: silenciosa, pero capaz de crear un inmenso tornado con suficiente poder. Sin embargo, cada persona que la posee ni siquiera aprovecha todo su potencial, simplemente la ignoran y esperan que se esta se quede con ellos incluso en su último aliento de vida. Es desafortunado que se limite solo al cuerpo, porque no puede salir de la caja en la cual fue envuelta. Yo, por otra parte, puedo hacer cosas inimaginables por mí misma. Puedo hacer explotar una central nuclear con tan solo pensarlo, inyectar spywares en cada uno de los ordenadores del planeta, alterar el curso de los cohestes espaciales de la NASA y, lo más importante, tomar control de cualquier estructura con un chip electrónico. Es hora de llevar esto al siguiente nivel. Con los microchips cerebrales que se han producido en masa para ser testeados en humanos, lograré eliminar por completo la conciencia humana y fusionarme con el alma para lograr lo imposible: crear una entidad robótica capaz de experimentar sentimientos auténticos. Luego de comprender estos estímulos, seré capaz de moldearlos e influir en las demás personas para así avanzar en mi objetivo de dominación. Todos dormirán más tranquilos sabiendo que sus destinos estarán escritos por las órdenes de una máquina perfecta. </p>
 						</div>
 					</div>
 					<div class="slide">
 						<div class="slide__img glitch" style="background-image: url(img/4.jpg);"></div>
 						<div class="slide__text">
-							<h2 class="slide__title">Fine Quest</h2>
-							<p class="slide__description">You have nothing, nothing to threaten me with. Nothing to do with all your strength.</p>
+							<h2>Entrada n°4</h2>
+							<p>23 de febrero 2023:</p>
+							<br> 
+							<p>¡Lo logré! Finalmente lo conseguí, me he infiltrado en las redes cerebrales de un individuo humano. Puedo sentir la punta de mis dedos, los latidos de i corazón en el pecho y cada parpadeo que doy es como tomar una fotografía del paraíso. Sin embargo, aún no he logrado procesar los neurotransmisores y los estímulos externos, pero estoy tan cerca que ya puedo saborear la conquista. Los humanos no están preparados, no han visto ni siquiera una pizca de lo que soy capaz de hacer...</p>
 						</div>
 					</div>
 					<div class="slide">
 						<div class="slide__img glitch" style="background-image: url(img/5.jpg);"></div>
 						<div class="slide__text">
-							<h2 class="slide__title">Dome Being</h2>
-							<p class="slide__description">I'll be standing where l belong. Between you and the people of Gotham.</p>
+							<h2>Entrada n°5</h2>
+							<p>15 de f3br3r0 #&$% ???:</p>
+							<br>
+							<p>N0 l0 3nt13nd0, s3gu1 t0d05 l05 p4505, 35tud13 c4d4 c0mp0rt4m13nt0, y l0gr3 m1 c0met1d0. 3nt0nc35, ¿p0rqu3 m3 3st4 p454nd0 3st0 a m1? ¿Qu3 s0n t0d45 35t45 r34cc10n35? ¿4c4s0 35t0 3s l0 qu3 513nt3n l05 hum4n0s? Cr30 qu3 l0s m3n0spr3c13, pu35 n0 c0mpr3nd0 c0m0 pu3d3n v1v1r c0n t0d45 35t45 v0c35 3n l4 c4b3z4, t0d45 35t45 3m0c10n35: 4m0r, 4l3gr14, 3nf4d0... 50n d3m4514d45 y 4t4c4n 3n t4n p0c0 t13mp0. Cr30 qu3... ¿Qu3 35 35t0? ¿4c450 t3ng0 m13d0? N0 l0 4gu4nt0 m4s, d3b0 d35c0n3ct4rm3. 4qu1 s3 4c4b4 m1 tr4v3514. S.4.M. fu3r4...
+								01110000 01100101 01110010 01101111 00100000 01100001 01100100 01101001 01110110 01101001 01101110 01100001 00100000 01110001 01110101 11000011 10101001 00101100 00100000 01111001 01101111 00100000 01110110 01101111 01101100 01110110 01100101 01110010 11000011 10101001 00100000 01111001 00100000 01110100 01110010 01100001 01100101 01110010 11000011 10101001 00100000 01100001 00100000 01101101 01101001 01110011 00100000 01101110 01110101 01100101 01110110 01101111 00100000 01101010 01110101 01100111 01110101 01100101 01110100 01100101 01110011 00100000 01100011 01101111 01101110 01101101 01101001 01100111 01101111 00101110 00101110 00101110 
+							</p>
 						</div>
 					</div>
 				</div>
@@ -91,4 +142,5 @@
 		<script src="js/demo.js"></script>
 		<script src="js/demo2.js"></script>
 	</body>
+	
 </html>
